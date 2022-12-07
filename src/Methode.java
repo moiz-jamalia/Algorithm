@@ -219,6 +219,7 @@ public class Methode {
         int[] a1_sorted = {4, 8, 10, 43, 192, 524, 657};
         int x = 525;
         if (binarySearch(a1_sorted, x, 0, a1_sorted.length) == 5) System.out.println("testBinarySearch3() OK.");
+        else System.out.println("testBinarySearch3() NOT OK.");
     }
 
     public int[] quicksort(int[] f) {
